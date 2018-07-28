@@ -10,6 +10,10 @@ namespace _04_ExtensionMethods
     {
         static void Main(string[] args)
         {
+            string valor = "ola mundo!";
+            Console.WriteLine(valor.FirstToUpper());
+
+            Console.ReadKey();
         }
     }
 }
